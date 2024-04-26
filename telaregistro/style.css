@@ -1,0 +1,51 @@
+@charset "UFT-8";
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-image: url(imagem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    background-color: #0000006c;
+    padding: 100px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    width: 80%;
+
+}
+
+button{
+    padding: 9px;
+    border-radius: 5px;
+    width: 80%;
+    outline: none;
+    background-image: ;
+}
+
+h1{
+    color: azure;
+}
+
+p{
+    color: azure;
+}
+
+mark{
+    background-color: #00000038;
+    padding: 6px;
+    border-radius: 20px;
+    color: azure;
+}
